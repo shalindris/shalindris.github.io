@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="icon" href="favicon package/favicon.ico">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="manifest" href="manifest.json">
+    
+</head>
+<body>
+        <header>
+            <nav>
+                <div>
+                    <img src="./images/Logo.png" alt="Company Logo">
+                  </div>
+              <input type="checkbox" id="click">
+              <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+              </label>
+              <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="Dairy Product.html">Dairy</a></li>
+                <li><a href="Vegetables.html">Vegetables</a></li>
+                <li><a href="cosmetics.html">Cosmetics</a></li>
+                <li><a href="#">Other</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign up</a></li>
+              </ul>
+              <div class="searchbar">
+                <input type="text" placeholder="Search for Products"/>
+                <button type="button" >Search</button>
+              </div>
+          </nav>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="title">Grocies Store</div>
+        <div class="slogan">The right store with the right price</div>
+        </header>
+    
+<div class="content">
+    <main>
+        <p>Welcome to Grocies Online Store, your one-stop destination for all your grocery needs delivered right to your doorstep! At Grocies, we understand the hustle and bustle of modern life, which is why we've made grocery shopping easier, more convenient, and enjoyable than ever before. Grocies Store is an innovative online grocery store designed to simplify your shopping experience and save you time and effort. With our user-friendly website and mobile app, you can browse through a wide selection of high-quality groceries, fresh produce, pantry staples, household essentials, and more, all from the comfort of your home or on-the-go.</p><br>
+        <div class="slideshow">
+            <img class="mySlides" src="images/1.png" alt="">
+            <img class="mySlides" src="images/3.png" alt="">
+            <img class="mySlides" src="images/5.png" alt="">
+            <img class="mySlides" src="images/2.png" alt="">
+            <img class="mySlides" src="images/4.png" alt="">
+            
+            <script>
+                var myIndex = 0;
+                carousel();
+                
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 2000); // Change image every 2 seconds
+                }
+                </script>
+        </div>
+
+        <h4>What Sets Us Apart:</h4>
+        <ol>
+            <li><div>Extensive Product Range:</div> From farm-fresh fruits and vegetables to premium meats, dairy products, beverages, snacks, and specialty items, Grocies Store offers a diverse range of products sourced from trusted suppliers and premium brands. Whether you're planning meals for the week or stocking up on essentials, we've got you covered.</li>
+            <li><div> Convenience Redefined:</div> Say goodbye to long queues and crowded aisles! With Grocies, you can shop anytime, anywhere, and at your own pace. Our intuitive platform allows you to easily search for products, create personalized shopping lists, and schedule deliveries that fit your busy schedule.</li>
+            <li><div> Quality Assurance:</div> At Grocies Store, we're committed to delivering only the freshest and highest-quality products to our customers. Our team meticulously selects and inspects each item to ensure freshness, taste, and nutritional value, so you can shop with confidence and peace of mind.</li>
+            <li><div> Flexible Delivery Options:</div> Choose from a range of convenient delivery options to suit your needs. Whether you prefer doorstep delivery, contactless delivery, or pickup from our designated collection points, we've got you covered. Plus, with same-day and next-day delivery options available, you'll never have to worry about running out of groceries again.</li>
+            <li><div> Exceptional Customer Service:</div> Our dedicated customer service team is here to assist you every step of the way. Whether you have questions about products, need assistance with your order, or require support after delivery, our friendly and knowledgeable team is just a call, chat, or email away.</li>
+        </ol>
+    </main>
+    <article class="art">
+        <section id="sec1">
+            <h1 class="h1">Origin & History</h1>
+            <img src="images/section 1 image.jpg" alt="history">
+            <p>Grocies Store is a supermarket chain that originated in Sri Lanka. It is owned and operated by ABC Company, a major Sri lankan retail company. Grocies Stores typically focus on offering fresh produce, groceries, and household items at affordable prices. The chain has expanded significantly since its inception, with numerous outlets across Sri Lanka, catering to the needs of local consumers. In 2015, Grocies Store opened it's first branch in Kollupitiya as a response to the growing demand for high-quality, affordable groceries in urban and suburban areas. Today, Grocies Store is a thriving regional chain with branches across the country. Despite its growth, the company remains true to its founders' vision, continuing to prioritize quality, sustainability, and customer satisfaction above all else. With its deep roots in the communities it serves, Grocies Store has become more than just a place to shop—it's a trusted partner in helping families eat well and live healthier lives. Grocies Store's expansion across Sri Lanka was a strategic and carefully planned process that capitalized on market demand and leveraged local partnerships. Here's how Grocies Store likely expanded its network across the country:</p>
+            <ul>
+                <li><div>Market Research and Analysis:</div>  Before expanding, Grocies Store conducted thorough market research to identify key locations with high demand for quality groceries. This involved analyzing demographic data, consumer behavior patterns, and competition in various regions of Sri Lanka.</li>
+                <li><div>Strategic Location Selection:</div>  Grocies Store strategically selected locations for its new stores based on the findings of its market research. It targeted urban centers, suburban areas, and growing neighborhoods where there was a lack of quality supermarkets or where existing options were not meeting consumer needs.</li>
+                <li><div>Partnerships with Local Suppliers:</div>  Grocies Store prioritized partnerships with local farmers, producers, and suppliers to ensure a steady supply of fresh, high-quality products. By sourcing locally, Grocies not only supported the local economy but also ensured that its offerings resonated with Sri Lankan tastes and preferences.</li>
+                <li><div>Focus on Customer Experience:</div>  Grocies Store prioritized providing exceptional customer experiences in its new stores. This included well-trained staff, clean and inviting store environments, convenient amenities, and personalized services to meet the needs of diverse customers.</li>
+            </ul>
+        </section>
+        <section id="sec2">
+            <!---->
+            <h1 class="h1">Our own Products</h1>
+            <img src="images/section 2 image.jpeg" alt="products">
+            <p>Grocies Store has developed its own brands to offer customers high-quality products at competitive prices while maintaining control over sourcing, production, and quality standards. Here are some of Grocies' own brands:</p>
+            <ul>
+                <li><div>Grocies Essentials:</div>This line includes everyday pantry staples such as rice, pasta, canned goods, and cooking oils. Grocies Store Essentials products are known for their consistent quality and value, making them popular choices for budget-conscious shoppers.</li>
+                <li><div>Grocies Organics:</div>Catering to health-conscious consumers, Grocies Organics offers a wide range of organic products, including fruits, vegetables, dairy, snacks, and pantry items. These products are sourced from certified organic farms and meet strict standards for sustainability and environmental responsibility.</li>
+                <li><div>FreshMart Delights:</div> Grocies Store Delights offers a selection of gourmet and specialty foods, including artisanal cheeses, charcuterie, imported chocolates, and fine wines. These indulgent treats are perfect for special occasions or when customers want to elevate their dining experience.</li>
+                <li><div>FreshMart Home: </div> Grocies Store Home provides customers with high-quality household essentials, including cleaning supplies, paper products, and personal care items. These products are designed to meet the needs of busy households while ensuring safety, efficacy, and environmental sustainability.</li>
+            </ul>
+        </section>
+        <section id="sec3">
+            <!--Banking, image, 2 paragraph-->
+            <h1 class="h1">Bakery & Food Court</h1>
+            <img src="images/section 3 image.jpeg" alt="bakery">
+            <p>Grocies's bakery is renowned for its freshly baked goods, made with the finest ingredients and expert craftsmanship. Whether you're picking up a loaf of bread for breakfast, treating yourself to a sweet treat, or planning a special celebration, Grocies's bakery has something delicious to offer. With its commitment to quality, freshness, and customer satisfaction, Grocies' bakery is sure to delight customers with every bite.Here's a glimpse into what you might find at a Grocies bakery:</p>
+            <dl>
+                <dt>Artisan Bread</dt>
+                <dd>Grocies Bakery offers a variety of artisan bread, including crusty sourdough, hearty whole wheat, and soft ciabatta. Baked daily in small batches, these bread are known for their exceptional flavor, texture, and aroma.</dd>
+                <dt>Pastries and Croissants</dt>
+                <dd>Indulge in a tempting selection of pastries and croissants, made with buttery, flaky pastry dough and filled with sweet or savory fillings. Favorites include butter croissants, chocolate-filled pastries, fruit turnovers, and savory cheese twists.</dd>
+                <dt>Cookies and Brownies</dt>
+                <dd>Treat yourself to an assortment of cookies and brownies, baked to perfection with premium ingredients like real butter, Belgian chocolate, and farm-fresh eggs. Choose from classic chocolate chip cookies, fudgy brownies, oatmeal raisin cookies, and more.</dd>
+                <dt>Cakes and Desserts</dt>
+                <dd>elebrate special occasions with Grocies's custom cakes and desserts, crafted with care and attention to detail. Whether you're craving a decadent chocolate cake, a light and airy sponge cake, or a creamy cheesecake, Grocies Bakery has something to satisfy every sweet tooth.</dd>
+                <dt>Freshly Baked Pies</dt>
+                <dd>Enjoy the comforting taste of homemade pies, filled with seasonal fruits, rich custards, or savory fillings. Grocies' pies are made from scratch using traditional recipes and are perfect for sharing with family and friends.</dd>
+                <dt>Specialty Breads and Rolls</dt>
+                <dd>Discover a variety of specialty breads and rolls, perfect for sandwiches, burgers, or to accompany a hearty meal. From soft sandwich rolls to crispy baguettes, Grocies' bakery offers a diverse range of options to suit every taste and occasion.</dd>
+            </dl>
+            <p>Grocies' Food Courts provide customers with a diverse culinary experience, offering a wide selection of delicious and freshly prepared dishes to enjoy on-site or take away. Grocies' food courts provide customers with a convenient and enjoyable dining experience, offering something for everyone to enjoy in a welcoming and vibrant setting. Whether you're looking for a quick bite on the go or a leisurely meal with friends and family, Grocies' food courts are the perfect destination for satisfying your cravings.Here's what you might find at a Grocies food court:</p>
+            <ul>
+                <li>International Cuisine</li>
+                <li>Made-to-Order Stations</li>
+                <li>Fresh and Healthy Options</li>
+                <li>Family-Friendly Fare</li>
+                <li>Grab-and-Go Snacks</li>
+                <li>Beverage Stations</li>
+            </ul>
+        </section>
+    </article>
+</div>
+</body>
+<br><br>
+<footer>
+    <div class="gridfooter">
+        <div class="b1"><img src="images/logo.png" alt="logo" width="90px" height="90px"></div>
+        <div class="b2"><p>Enter Sri Lanka's freshest online grocery store for all your grocery needs- fresh to frozen and everything in between! Now, you can order ALL your daily necessities from the comfort of your home or anywhere you want!</p></div>
+        <div class="b3"><p>Useful links</p>
+            <a href="About Us.html">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Terms and Conditions</a>
+            <a href="#">FAQ</a>
+        </div>
+        <div class="b4"><p>Download App</p>
+            <a href="https://play.google.com/store/apps?hl=en&gl=US&pli=1"><img src="images/google play.png" alt=""></a>
+            <a href="https://www.apple.com/app-store/"><img src="images/app store.jpg" alt=""></a>
+
+        </div>
+        <div class="b5">
+        <div class="b50"><p>Follow Us</p></div>
+        <div class="b51"><a href=""><img src="images/fb.png" alt=""></a></div>
+        <div class="b52"><a href=""><img src="images/twitter.png" alt=""></a></div>
+        <div class="b53"><a href=""><img src="images/linkedin.png" alt=""></a></div>
+        <div class="b54"><a href=""><img src="images/instagram.png" alt=""></a></div>
+        <div class="b55"><a href=""><img src="images/whatsapp.png" alt=""></a></div>
+
+    </div>
+
+    </div>
+    <p class="copy">&copy;Grocies Store Online</p>
+    <!--page content  - Generated from ChatGPT
+        slideshow images - Designed using Canva
+        main image - https://m.facebook.com/61554325585584/
+        section 1 image - https://crosspoint.nl/branches/supermarkets-and-hypermarkets/
+        section 2 image - https://www.vecteezy.com/photo/29629211-shopping-cart-full-of-food-and-drinks-and-supermarket-shelves-behind-grocery-shopping-concept
+        section 3 image - https://www.linkedin.com/pulse/comprehensive-guide-best-indian-bakery-foods-
+        -->
+</footer>
+</html>
