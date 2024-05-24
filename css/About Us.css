@@ -288,6 +288,9 @@ footer p{
             top: 0;
             margin-left: 60px;
           }
+          nav{
+            height: fit-content;
+        }
       nav ul{
         position: absolute;
         top: 80px;
