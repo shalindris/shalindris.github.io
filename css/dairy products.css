@@ -73,6 +73,9 @@ header{
   input[type="checkbox"]{
     display: none;
   }
+  .searchbar{
+    line-height: 0px;
+  }
   .searchbar input{
     padding: 10px;
     width: 250px;
