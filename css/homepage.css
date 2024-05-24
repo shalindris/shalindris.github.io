@@ -350,6 +350,7 @@ footer p{
           margin-top: 0;
           top: 0;
           line-height: 0;
+          margin-left: 30px;
         }
       nav ul{
         position: absolute;
