@@ -347,7 +347,9 @@ footer p{
         margin-right: 1%;
         }
         .searchbar{
-          margin-top: 15px;
+          margin-top: 0;
+          top: 0;
+          line-height: 0;
         }
       nav ul{
         position: absolute;
