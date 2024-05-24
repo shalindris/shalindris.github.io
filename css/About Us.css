@@ -328,6 +328,9 @@ footer p{
         border: none;
         text-decoration: underline;
       }
+      #img img{
+        margin-top: 100px;
+    }
    
     #sec1 p{
         font-size: 14px;
