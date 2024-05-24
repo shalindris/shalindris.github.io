@@ -377,7 +377,8 @@ footer p{
         
     }
       #img img{
-        margin-top: 30px;
+        margin-top: 10px;
+        height: 10%;
     }
     .links{
         gap: 1em;

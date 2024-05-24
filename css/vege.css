@@ -309,7 +309,8 @@ footer p{
             height: fit-content;
         }
         #img img{
-            margin-top: 90px;
+            margin-top: 140px;
+            height: 10%;
         }
       nav ul{
         position: absolute;
