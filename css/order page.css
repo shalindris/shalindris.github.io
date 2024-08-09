@@ -342,3 +342,71 @@ footer p{
   color: var(--bg-color);
   padding: 5px;
 }
+
+@media screen and (max-width:700px){
+  nav .menu-btn i{
+      display: block;
+      color: var(--font-color);
+      width: 100%;
+      margin-right: 13px;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+      color: #000000;
+    }
+    nav .logo{
+      width: 50px;
+      height: 50px;
+      position: fixed;
+      }
+    .searchbar input{
+      width: 200px;
+      margin-left: 2%;
+      margin-right: 1%;
+      }
+      .searchbar{
+        margin-top: 15px;
+      }
+    nav ul{
+      position: absolute;
+      top: 80px;
+      left: -300%;
+      background: var(--font-color);
+      height: 150vh;
+      display: block;
+      transition: all 0.3s ease;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    #click:checked ~ ul{
+      left: 0;
+      z-index: 2;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 10px 0;
+    }
+    nav ul li a{
+      width: 100%;
+      display: block;
+      font-size: 18px;
+      color: var(--bg-color);
+    }
+    #click:checked ~ ul li a{
+      padding-bottom: 20px;
+      text-align: left;
+      z-index: 2;      
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: #2ede98;
+      border: none;
+      text-decoration: underline;
+  }
+  #img img{
+      margin-top: 2%;
+  }
+  #intro{
+      font-size: 14px;
+  }
