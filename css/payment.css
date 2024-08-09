@@ -74,7 +74,7 @@ header{
   }
   .searchbar input{
     padding: 10px;
-    width: 250px;
+    width: 400px;
     border: 1px solid #ccc;
     border-radius: 20px;
     margin-right: 10px;
@@ -164,7 +164,7 @@ header{
 .section3 h3{
     padding-bottom: 0s;
 }
-.section3 img{
+#card{
     width: 120px;
     height: 120px;
 }
@@ -450,12 +450,7 @@ footer p{
         margin-right: 1%;
         }
         .searchbar{
-            margin-top: 0;
-            top: 0;
-            margin-left: 60px;
-          }
-          nav{
-            height: fit-content;
+          margin-top: 15px;
         }
       nav ul{
         position: absolute;

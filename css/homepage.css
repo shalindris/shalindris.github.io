@@ -322,7 +322,7 @@ footer p{
 @media screen and (max-width:700px) {
     
     header{
-        background-image: url(mobile\ main.png);
+        background-image: url(mobile\ main.jpg);
     }
     nav .menu-btn i{
         display: block;
@@ -347,12 +347,7 @@ footer p{
         margin-right: 1%;
         }
         .searchbar{
-          margin-top: 0;
-          top: 0;
-          margin-left: 60px;
-        }
-        nav{
-            height: fit-content;
+          margin-top: 15px;
         }
       nav ul{
         position: absolute;

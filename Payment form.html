@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Confirmation</title>
+    <link rel="icon" href="favicon package/favicon.ico">
+    <link rel="stylesheet" href="css/Payment form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="js/Payment form.js"></script>
+
+
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <nav>
+                <div>
+                    <img src="./images/logo.png" alt="Company Logo">
+                  </div>
+              <input type="checkbox" id="click">
+              <label for="click" class="menu-btn">
+                <i class="fas fa-bars"></i>
+              </label>
+              <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="Dairy Product.html">Dairy</a></li>
+                <li><a href="Vegetables.html">Vegetables</a></li>
+                <li><a href="cosmetics.html">Cosmetics</a></li>
+                <li><a href="#">Other</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign up</a></li>
+              </ul>
+              <div class="searchbar">
+                <input type="text" placeholder="Search for Products"/>
+                <button type="button" >Search</button>
+              </div>
+          </nav>
+        </header>
+        </div><br>
+        <main>
+            <h2>Order Confirmation</h2>
+           <section id="order-form">
+            <div class="fieldset">
+            <form action="" class="orderForm">
+                <fieldset class="field1">
+                    <legend>Personal Information</legend><br>
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" class="space" name="fullname"><br><br>
+                    <label for="address">Address:</label><br>
+                    <textarea name="address" class="spaceadd"></textarea><br><br>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" class="space" name="email"><br><br>
+                    <label for="number">Phone Number:</label><br>
+                    <input type="tel" maxlength="10" class="teldobspace" name="number"><br><br>
+                    <label for="dob">Date of Birth:</label><br>
+                    <input type="date" class="teldobspace" name="dob"><br><br>
+                </fieldset><br><br>
+
+                <fieldset class="field2">
+                    <legend>Delivery Details</legend><br>
+                    <label for="name">Name</label><br>
+                    <input type="text"><br><br>
+                    <label for="number">Phone Number</label><br>
+                    <input type="number"><br><br>
+                    <label for="recipientname">Recipient Name</label><br>
+                    <input type="text"><br><br>
+                    <label for="contact">Recipient Contact No. </label><br>
+                    <input type="number"><br><br>
+                    <label for="address">Delivery Address</label><br>
+                    <input type="text" size="50">
+                </fieldset>
+            <br><br>
+
+                <fieldset class="field3">
+                    <legend>Payment Details</legend><br>
+                        <input type="radio" name="payment"><label for="payment">Cash on Delivery</label><br>
+                        <p>Note: Cash on Delivery is only applicable for the orders below 3,000.00 LKR and Delivery within 6 km from the selected branch.</p><br>
+                        <input type="radio" name="payment"><label for="payment">Card Payment</label><br><br>
+                        <input type="image" id="card" src="images/visa.jpg">
+                        <input type="image" id="card" src="images/mastercard.jpg">
+                        <input type="image" id="card" src="images/American-Express-logo.png"><br><br><br>
+                        <input type="checkbox"><label for="save">Save card for faster checkout</label><br><br>
+                     
+                     <label for="num">Card Number</label><br>
+                        <input type="text" id="num" maxlength="16" size="25"><br><br>
+                        <label for="month">Expiration Month</label><br>
+                        <select name="month" id="month">
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">Octomber</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select><br><br>
+                        <label for="year">Expiration Year</label><br>
+                        <select name="year" id="year">
+                            <option value="1">2024</option>
+                            <option value="2">2025</option>
+                            <option value="3">2026</option>
+                            <option value="4">2027</option>
+                            <option value="5">2028</option>
+                        </select><br><br>
+                        <label for="cvn">CVN </label><br>
+                        <input type="text" maxlength="4" size="5"><br>
+                        <p>Note: This number is a three or four digit number printed on the back or front of debit/credit cards.</p><br>
+                   <br>
+                </fieldset>
+            </form>
+                </div>
+                <br>
+                <button id="button1">Reset</button> 
+                <button id="button2">Pay Now</button>
+            </form>
+           </section>
+           <div class="final-form"></div>
+        </main><br>
+        <footer>
+            <div class="gridfooter">
+                <div class="b1"><img src="images/logo.png" alt="logo" width="90px" height="90px"></div>
+                <div class="b2"><p>Enter Sri Lanka's freshest online grocery store for all your grocery needs- fresh to frozen and everything in between! Now, you can order ALL your daily necessities from the comfort of your home or anywhere you want!</p></div>
+                <div class="b3"><p>Useful links</p>
+                    <a href="About Us.html">About Us</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Terms and Conditions</a>
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="b4"><p>Download App</p>
+                    <a href="https://play.google.com/store/apps?hl=en&gl=US&pli=1"><img src="images/google play.png" alt=""></a>
+                    <a href="https://www.apple.com/app-store/"><img src="images/app store.jpg" alt=""></a>
+        
+                </div>
+                <div class="b5">
+                <div class="b50"><p>Follow Us</p></div>
+                <div class="b51"><a href=""><img src="images/fb.png" alt=""></a></div>
+                <div class="b52"><a href=""><img src="images/twitter.png" alt=""></a></div>
+                <div class="b53"><a href=""><img src="images/linkedin.png" alt=""></a></div>
+                <div class="b54"><a href=""><img src="images/instagram.png" alt=""></a></div>
+                <div class="b55"><a href=""><img src="images/whatsapp.png" alt=""></a></div>
+        
+            </div>
+        
+            </div>
+            <p class="copy">&copy;Grocies Store Online</p>
+            <!--
+                loyalty card images - Canva
+            -->
+        </footer>
+</body>
+</html>

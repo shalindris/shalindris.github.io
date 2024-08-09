@@ -73,10 +73,9 @@ header{
   input[type="checkbox"]{
     display: none;
   }
-
   .searchbar input{
     padding: 10px;
-    width: 250px;
+    width: 400px;
     border: 1px solid #ccc;
     border-radius: 20px;
     margin-right: 10px;
@@ -322,21 +321,13 @@ footer p{
         height: 50px;
         position: fixed;
         }
-        .searchbar{
-            line-height: 0px;
-          }
       .searchbar input{
         width: 200px;
         margin-left: 2%;
         margin-right: 1%;
         }
         .searchbar{
-            margin-top: 0;
-            top: 0;
-            margin-left: 60px;
-          }
-          nav{
-            height: 120px;
+          margin-top: 15px;
         }
       nav ul{
         position: absolute;
@@ -377,8 +368,7 @@ footer p{
         
     }
       #img img{
-        margin-top: 16px;
-        height: 10%;
+        margin-top: 2%;
     }
     .links{
         gap: 1em;

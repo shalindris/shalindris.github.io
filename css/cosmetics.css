@@ -75,7 +75,7 @@ header{
   }
   .searchbar input{
     padding: 10px;
-    width: 250px;
+    width: 400px;
     border: 1px solid #ccc;
     border-radius: 20px;
     margin-right: 10px;
@@ -287,12 +287,7 @@ footer p{
         margin-right: 1%;
         }
         .searchbar{
-            margin-top: 0;
-            top: 0;
-            margin-left: 60px;
-          }
-          nav{
-            height: 120px;
+          margin-top: 15px;
         }
       nav ul{
         position: absolute;
@@ -333,8 +328,7 @@ footer p{
       }
     
       #img img{
-        margin-top: 42px;
-        height: 10%;
+        margin-top: 2%;
     }
     .subnav a{
         font-size: 13px;
